@@ -1,0 +1,208 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+}
+/* Header Section Style */
+.header-top {
+  background-image: url(./images/banner/banner2.png);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+.header-right {
+  text-align: right;
+  padding: 200px 160px 230px 230px;
+  /* align-items: center; */
+  justify-content: center;
+}
+.header-right-title {
+  font-size: 55px;
+  font-size: 700;
+  color: #151414;
+  margin-bottom: 25px;
+}
+.header-right-dsc {
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+  margin-bottom: 25px;
+}
+/* Button Style */
+.primary-btn {
+  padding: 20px 35px;
+  background-color: #ff4500;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+}
+/* My failures of previous year Section(Banner) Style */
+.banner1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 85px;
+  margin: 130px 220px;
+}
+.banner1-dsc {
+  width: 50%;
+}
+.banner1-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  margin-bottom: 24px;
+}
+.banner1-title-dsc {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+  margin-bottom: 16px;
+}
+.banner1-list {
+  list-style: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+}
+
+/* My Plans Part Style */
+
+.plans {
+  margin: 130px 0px 130px;
+}
+.plans-titel {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-align: center;
+  color: #151414;
+  margin-bottom: 60px;
+}
+.plans-subject {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0px 220px;
+  text-align: center;
+}
+.plans-subject-list img {
+  margin-bottom: 24px;
+}
+.plans-subject-list h3 {
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+}
+.plans-subject-list p {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+}
+/* Image Gradient styel */
+
+.img-grad {
+  background-image: linear-gradient(
+      90deg,
+      #ff4500 0%,
+      rgba(241, 91, 34, 0) 100%
+    ),
+    url(images/watch.png);
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 130px 220px;
+  width: 1140px;
+  height: 300px;
+}
+.img-grad-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffffff;
+  padding: 60px 65px 24px;
+}
+.primary-btn2 {
+  padding: 20px 35px;
+  background-color: white;
+  color: #ff4500;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 20px 0px;
+}
+/* message Section Style */
+.message-sec {
+  background-color: #ff4500;
+  text-align: center;
+  justify-content: center;
+  margin: 130px 230px -50px;
+  color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 5px 5px 30px gray;
+}
+.message-sec h2 {
+  padding-top: 16px;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.message-sec p {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0 26px;
+  color: #ffffff;
+  /* margin-bottom: 20px; */
+}
+
+/* Footer Style */
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #151414;
+  color: #ffffff;
+  padding: 130px 220px;
+}
+.footer-head {
+  width: 50%;
+}
+.footer-head-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #f8f8f8;
+  margin-bottom: 16px;
+}
+.footer-head-dsc {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.footer-social-icon img {
+  margin-right: 15px;
+}
+.footer-right {
+  justify-content: center;
+  align-items: center;
+}
+.footer-right h4 {
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 16px;
+}
+.footer-form input {
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: #151414;
+  color: white;
+  width: 325px;
+  height: 64px;
+  padding-left: 20px;
+}
+/* End */
